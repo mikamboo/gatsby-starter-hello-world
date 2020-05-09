@@ -1,11 +1,12 @@
 import React from "react"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 export default function Contact() {
   return (
-    <div style={{ color: `teal` }}>
-      <Header headerText="Contact" level="2" />
-      <p>Send us a message!</p>
-    </div>
+    <Layout>
+      <div style={{ color: `teal` }}>
+        <p>Send us a message!</p>
+      </div>
+    </Layout>
   )
 }
