@@ -5,6 +5,11 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `AgriPlus`,
+    description: `L'agriculture à partée de main`,
+    author: `@mikamboo`,
+  },
   /* Your site config here */
   plugins: [`gatsby-plugin-sass`]
 }
