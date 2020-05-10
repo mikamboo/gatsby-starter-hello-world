@@ -1,24 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
+import logo from "../../static/logo.png"
 
-export default function Header(props) {
-  const menu = (
-    <p>
-      <Link to="/">Home</Link> | &nbsp;
-      <Link to="/about">About Page</Link> | &nbsp;
+export default props => (
+  <header className="site-header">
+    <Link to="/" title={"Agriplus"}>
+      <img width="110" alt={"Logo"} src={logo}/>
+    </Link>
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/about">About Page</Link>
       <Link to="/contact">Contact Us</Link>
-    </p>
-  )
-
-  const titlef = (level, text) => {
-    if (level === "1") {
-      return <h1>{text}</h1>
-    }
-    if (props.level === "2") {
-      return <h2>{text}</h2>
-    }
-    return <h3>{text}</h3>
-  }
-
-  return [menu, titlef(props.level, props.headerText)]
-}
+    </nav>
+  </header>
+)
