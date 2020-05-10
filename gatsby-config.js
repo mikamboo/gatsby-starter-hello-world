@@ -13,6 +13,9 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
+      resolve: `gatsby-transformer-sharp`
+    },
+    {
       resolve: `gatsby-plugin-sass`,
       options: {
         postCssPlugins: [

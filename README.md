@@ -1,24 +1,23 @@
 # Agriplus PWA
 
-__TODO__
+A Gatsby site.
 
-* [ ] Ajout facticon
-* [ ] Intégration PWA
-* [ ] Intégration tailwind
-* [ ] Intégration helmet
-* [ ] Intégration plugin json data
-* [ ] Intégration Storybook
+__FEATURES__
+
+* [x] Custom logo
+* [ ] Custom favicon
+* [ ] PWA offline support
+* [ ] Gatsby images plugin
+* [ ] SEO https://github.com/histaff/website-static/blob/master/src/components/seo.js
+* [x] Support SaSS + Tailwind CSS + Styled-Components
+* [x] Tailwind config theme customisation
+* [ ] Dynamic head with react-helmet
+* [ ] Data from static json data
+* [ ] Components Storybook
+* [ ] Cypress e2e testing
+* [x] Support of 404 Page
 
 ## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
-
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
 
 1.  **Start developing.**
 
@@ -32,7 +31,7 @@ __TODO__
 1.  **Open the source code and start editing!**
 
   Your site is now running at `http://localhost:8000`!
-  GraphiQL is running at :  _`http://localhost:8000/___graphql`_
+  GraphiQL is running at : `http://localhost:8000/___graphql`
 
 ## 💫 Deploy
 

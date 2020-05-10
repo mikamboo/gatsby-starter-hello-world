@@ -8,7 +8,7 @@ export default props => (
       <img width="110" alt={"Logo"} src={logo}/>
     </Link>
     <nav>
-      <Link to="/">Home</Link>
+      <Link to="/">Blog</Link>
       <Link to="/about">About Page</Link>
       <Link to="/contact">Contact Us</Link>
     </nav>
