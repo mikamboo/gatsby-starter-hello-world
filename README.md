@@ -5,7 +5,7 @@ A Gatsby site.
 __FEATURES__
 
 * [x] Custom logo
-* [ ] Custom favicon
+* [x] Custom favicon
 * [ ] PWA offline support
 * [ ] Gatsby images plugin
 * [ ] SEO https://github.com/histaff/website-static/blob/master/src/components/seo.js
