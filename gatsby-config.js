@@ -7,9 +7,18 @@
 module.exports = {
   siteMetadata: {
     title: `AgriPlus`,
-    description: `L'agriculture à partée de main`,
+    description: `L'agriculture à portée de main`,
     author: `@mikamboo`,
   },
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`]
+  plugins: [
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          require("tailwindcss"),
+        ],
+      },
+    }
+  ]
 }
